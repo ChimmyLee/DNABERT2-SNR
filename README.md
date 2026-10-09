@@ -250,6 +250,11 @@ If you use DNABERT2-SNR in your research, please cite the accompanying paper and
   year    = {2024}
 }
 ```
+---
+
+## More information
+
+The model weight file is available at <https://huggingface.co/Chimmylee/DNABERT2-SNR/tree/main>.
 
 ---
 
