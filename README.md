@@ -75,8 +75,8 @@ Two fusion modes are supported:
 ```
 dnbert2_snr/
 ├── scripts/
-│   ├── model.py                                # DNABERT2SNRStage2 (Stage2TFBSModel) + PPM encoders + cross-attention fusion + losses
-│   ├── dataset.py                              # TFBSStage2Dataset + Stage2Collator (PPM loading, label parsing)
+│   ├── model.py                                # DNABERT2SNR + PPM encoders + cross-attention fusion + losses
+│   ├── dataset.py                              # TFBSDataset + Collator (PPM loading, label parsing)
 │   ├── utils.py                                # DNABERT-2 backbone / tokenizer loading
 │   ├── train.py                                # multi-length training loop
 │   └── evaluate.py                             # evaluation (per-TF + pooled metrics)
