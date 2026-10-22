@@ -3,6 +3,8 @@
 **DNABERT2-SNR** is a deep-learning framework for **nucleotide-resolution transcription-factor binding-site (TFBS) prediction**. It conditions the [DNABERT-2](https://github.com/MAGICS-LAB/DNABERT_2) genomic foundation model on a transcription factor's **position probability matrix (PPM)** through a **DNA→PPM cross-attention** module, and predicts binding at three granularities simultaneously — sequence-level, token-level, and nucleotide-level.
 
 The model is trained in a multi-length, multi-TF setting (DNA inputs of 100 / 150 / 200 bp) and is shown to **generalize to unseen lengths** (evaluated at 250 bp). In head-to-head comparisons across dozens of transcription factors, DNABERT2-SNR systematically outperforms existing TFBS predictors, including **BertSNR**, **DeepSNR**, and **D-AEDNet**.
+<img width="7068" height="5330" alt="Figure5" src="https://github.com/user-attachments/assets/1dcd214e-bf92-4ce6-ab22-640c071675ca" />
+<img width="4399" height="2277" alt="Figure6" src="https://github.com/user-attachments/assets/9a9f2fc9-4608-4c5d-bba3-4ffc3d975ea0" />
 
 ---
 
